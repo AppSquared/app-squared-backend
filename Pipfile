@@ -12,6 +12,8 @@ djoser = "*"
 django-cors-headers = "*"
 whitenoise = "*"
 django-environ = "*"
+djangorestframework = "*"
+router = "*"
 
 [dev-packages]
 
