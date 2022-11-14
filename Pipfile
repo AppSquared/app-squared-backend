@@ -15,6 +15,7 @@ django-environ = "*"
 djangorestframework = "*"
 router = "*"
 python-dotenv = "*"
+django_on_heroku = "*"
 
 [dev-packages]
 
