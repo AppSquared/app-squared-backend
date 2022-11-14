@@ -1,6 +1,6 @@
 from rest_framework import generics
-from .models import Application, Company
-from .serializers import ApplicationSerializer
+from .models import Application, Contact
+from .serializers import ApplicationSerializer, ContactSerializer
 from rest_framework import permissions
 from applications.permissions import IsOwnerOrReadOnly
 
@@ -20,16 +20,16 @@ class ApplicationDetail(generics.RetrieveUpdateDestroyAPIView):
     permission_classes = [IsOwnerOrReadOnly]
 
 
-# class CompanyList(generics.ListCreateAPIView):
-#     queryset = Company.objects.all()
-#     serializer_class = CompanySerializer
-#     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
+class ContactList(generics.ListCreateAPIView):
+    queryset = Contact.objects.all()
+    serializer_class = ContactSerializer
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
 
-#     def perform_create(self, serializer):
-#         serializer.save(owner=self.request.user)
+    def perform_create(self, serializer):
+        serializer.save(owner=self.request.user)
 
 
-# class CompanyDetail(generics.RetrieveUpdateDestroyAPIView):
-#     queryset = Company.objects.all()
-#     serializer_class = CompanySerializer
-#     permission_classes = [IsOwnerOrReadOnly]
+class ContactDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Contact.objects.all()
+    serializer_class = ContactSerializer
+    permission_classes = [IsOwnerOrReadOnly]
