@@ -17,11 +17,9 @@ load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+SECRET_KEY = os.environ('SECRET_KEY')
 
-SECRET_KEY = os.environ['SECRET_KEY']
-
-DEBUG = False
-
+DEBUG = True if os.getenv('MODE') == 'dev' else False
 
 ALLOWED_HOSTS = []
 
