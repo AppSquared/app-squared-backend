@@ -1,6 +1,6 @@
 # Description of Project
 
-App Squared is a Job Application tracking app, where users input information about their Job Applications and App^2 will store the information and allow users to view a dynamic feed that will show users when they applied, the Job title, company and the status. This dynamic feed will also allow users to sort by days since applied (Ascending and Descending order) and status, as well as allow users to search their database of applications by title, company, and where they applied
+App Squared is a Job Application tracking app, where users input information about their Job Applications and App^2 will store the information and allow users to view a dynamic feed that will show users when they applied, the Job title, company and the status. This dynamic feed will also allow users to sort by days since applied (Ascending and Descending order) and status, as well as allow users to search their database of applications by title, company, and where they applied. This repo reflects the server, or back end, of this app. 
 
 # Screenshot of my APP
 <img width="1168" alt="Screen Shot 2022-11-15 at 12 01 18 PM" src="https://user-images.githubusercontent.com/107736662/201992756-4a1233d8-2d14-4bae-9da9-4b8550f41941.png">
@@ -10,13 +10,16 @@ App Squared is a Job Application tracking app, where users input information abo
 
 # List of Technologies used:
 
+## (Frontend)
 - HTML
 - CSS
 - Javascript
 - REACT
-- Python
-- Django
 - Bootstrap
+ 
+## (Backend)
+- Python 
+- Django
 
 # Unlearned Technology:
 - Bootstrap - Modals / Cards
@@ -25,11 +28,10 @@ App Squared is a Job Application tracking app, where users input information abo
 
 # Installation instructions
 
-- Go to the website: https://app-squared.netlify.app/
-- Click on the Menu and Sign Up (If you've signed up already, Click on Log In)
-- Input your info and Log In
-- On Applications page you can add/edit your application
-- You can also sort and filter your feed
+- Go to the website: [https://appsquared-db.herokuapp.com/]
+- Click on the Menu and Sign Up (If you've signed up already, there is a link to login in the top right)
+- Input your info and log in.
+
 
 # User Stories
 
@@ -51,9 +53,9 @@ App Squared is a Job Application tracking app, where users input information abo
 
 Unsolved Problems:
 
-- We will revisit and add To-do functionality and have a usable daily companion module
-- Add daily motivational quotes (3rd Party API)
 - The contact model is not fully navigable at deploy, but the work for it has begun.
+- We'd like to revisit the user model in order to implement Profiles for users through the site, as it could allow for user to user interactivity. At the moment, there is some potential to build / customize user profiles, but we didn't reach that far into stretch goals.
+- Token destruction is kind of shaky at the moment; there are bugs that might be related to this, but it will require further testing.
 
 Major Hurdles:
 
@@ -62,4 +64,4 @@ Major Hurdles:
 - DJANGO
 - Restructuring from planning stage/ changing the approach
 - Scheduling issues
-- Compartmentalization of tasks
+- Compartmentalization of features/tasks
