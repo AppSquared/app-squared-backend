@@ -3,12 +3,10 @@
 App Squared is a Job Application tracking app, where users input information about their Job Applications and App^2 will store the information and allow users to view a dynamic feed that will show users when they applied, the Job title, company and the status. This dynamic feed will also allow users to sort by days since applied (Ascending and Descending order) and status, as well as allow users to search their database of applications by title, company, and where they applied
 
 # Screenshot of my APP
-![](./src/assets/screenshots/login.png)
-![](./src/assets/screenshots/sign-in.png)
-![](./src/assets/screenshots/edit.png)
-![](./src/assets/screenshots/edit-modal.png)
-![](./src/assets/screenshots/home.png)
-![](./src/assets/screenshots/create-modal.png)
+<img width="1168" alt="Screen Shot 2022-11-15 at 12 01 18 PM" src="https://user-images.githubusercontent.com/107736662/201992756-4a1233d8-2d14-4bae-9da9-4b8550f41941.png">
+<img width="1176" alt="Screen Shot 2022-11-15 at 12 02 46 PM" src="https://user-images.githubusercontent.com/107736662/201992940-18f20e4e-5efb-4f30-80f7-6c9d9f9370cb.png">
+<img width="1181" alt="Screen Shot 2022-11-15 at 12 03 09 PM" src="https://user-images.githubusercontent.com/107736662/201993025-5b2f152e-fd1b-4a1a-8127-fafb6987a8e7.png">
+
 
 # List of Technologies used:
 
